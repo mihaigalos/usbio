@@ -22,8 +22,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -1651,6 +1651,11 @@
 <rectangle x1="5.1689" y1="7.5311" x2="5.6261" y2="7.5565" layer="22" rot="R180"/>
 <rectangle x1="3.5433" y1="7.5311" x2="4.7117" y2="7.5565" layer="22" rot="R180"/>
 <text x="9.3726" y="0.635" size="0.8128" layer="22" font="vector" rot="MR0">usbio v0.1.0</text>
+<circle x="6.0452" y="32.6136" radius="0.85685" width="1.27" layer="30"/>
+<circle x="6.0706" y="32.639" radius="0.5588" width="1.27" layer="30"/>
+<circle x="6.0452" y="32.5882" radius="0.03591875" width="1.27" layer="30"/>
+<circle x="6.0452" y="32.6136" radius="1.221578125" width="1.27" layer="29"/>
+<circle x="6.0198" y="32.639" radius="0.314178125" width="1.27" layer="29"/>
 </plain>
 <libraries>
 <library name="rcl">
