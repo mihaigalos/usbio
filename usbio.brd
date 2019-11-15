@@ -1656,6 +1656,8 @@
 <circle x="6.0452" y="32.5882" radius="0.03591875" width="1.27" layer="30"/>
 <circle x="6.0452" y="32.6136" radius="1.221578125" width="1.27" layer="29"/>
 <circle x="6.0198" y="32.639" radius="0.314178125" width="1.27" layer="29"/>
+<text x="11.8872" y="35.9156" size="1.778" layer="21" rot="SR180">A</text>
+<text x="2.032" y="35.9918" size="1.778" layer="21" rot="SR180">B</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -3661,7 +3663,7 @@ design rules under a new name.</description>
 <via x="11.4" y="31.9" extent="1-16" drill="0.35"/>
 <via x="9.6" y="28.8" extent="1-16" drill="0.35"/>
 <via x="4.7" y="27.7" extent="1-16" drill="0.35"/>
-<via x="1.4" y="34.8" extent="1-16" drill="0.35"/>
+<via x="1.1206" y="33.4284" extent="1-16" drill="0.35"/>
 <via x="9.6" y="37.4" extent="1-16" drill="0.35"/>
 <via x="2.7" y="38.1" extent="1-16" drill="0.35"/>
 <via x="4.9" y="12.6" extent="1-16" drill="0.35"/>
