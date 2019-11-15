@@ -10982,6 +10982,23 @@ leakage current too high </text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,97.79,194.31,ADC,,,,,"/>
+<approved hash="106,1,146.05,186.69,INT_MULTIPLE,,,,,"/>
+<approved hash="106,1,146.05,209.55,OUTAB,,,,,"/>
+<approved hash="106,1,146.05,148.59,PERIPHERY_ON,,,,,"/>
+<approved hash="106,1,146.05,156.21,RSCK,,,,,"/>
+<approved hash="106,1,146.05,153.67,RSDI,,,,,"/>
+<approved hash="106,1,146.05,151.13,RSDO,,,,,"/>
+<approved hash="106,1,146.05,179.07,RSEL,,,,,"/>
+<approved hash="106,1,146.05,173.99,SCL,,,,,"/>
+<approved hash="106,1,146.05,176.53,SDA,,,,,"/>
+<approved hash="113,1,99.3817,63.5,LED5,,,,,"/>
+<approved hash="113,1,88.5783,63.5,LED6,,,,,"/>
+<approved hash="113,1,156.159,194.31,Y1,,,,,"/>
+<approved hash="113,1,252.967,84.0461,JP1,,,,,"/>
+<approved hash="113,1,203.2,30.9626,IC2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
