@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -10353,6 +10353,203 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="solderjumper">
+<packages>
+<package name="2.SML">
+<smd name="1" x="-0.2032" y="0" dx="0.254" dy="0.508" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="0.2032" y="0" dx="0.254" dy="0.508" layer="1" rot="R180" stop="no" cream="no"/>
+<wire x1="-0.4826" y1="0.2032" x2="-0.4826" y2="0.4064" width="0.1016" layer="21"/>
+<wire x1="-0.4826" y1="0.4064" x2="0.4826" y2="0.4064" width="0.1016" layer="21"/>
+<wire x1="0.4826" y1="0.4064" x2="0.4826" y2="0.2032" width="0.1016" layer="21"/>
+<wire x1="0.4826" y1="-0.2032" x2="0.4826" y2="-0.4064" width="0.1016" layer="21"/>
+<wire x1="0.4826" y1="-0.4064" x2="-0.4826" y2="-0.4064" width="0.1016" layer="21"/>
+<wire x1="-0.4826" y1="-0.4064" x2="-0.4826" y2="-0.2032" width="0.1016" layer="21"/>
+<rectangle x1="-0.3302" y1="-0.254" x2="-0.0762" y2="0.254" layer="29"/>
+<rectangle x1="0.0762" y1="-0.254" x2="0.3302" y2="0.254" layer="29"/>
+<text x="-0.5" y="0.5" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.5" y="-1" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="2.MED">
+<smd name="1" x="-0.2794" y="0" dx="0.4064" dy="0.8128" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="0.2794" y="0" dx="0.4064" dy="0.8128" layer="1" rot="R180" stop="no" cream="no"/>
+<wire x1="0.635" y1="0.5588" x2="-0.635" y2="0.5588" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="-0.5588" x2="-0.635" y2="-0.5588" width="0.1016" layer="21"/>
+<rectangle x1="-0.4826" y1="-0.4064" x2="-0.0762" y2="0.4064" layer="29"/>
+<rectangle x1="0.0762" y1="-0.4064" x2="0.4826" y2="0.4064" layer="29"/>
+<wire x1="-0.635" y1="0.5588" x2="-0.635" y2="0.3048" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="0.5588" x2="0.635" y2="0.3048" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="-0.3048" x2="0.635" y2="-0.5588" width="0.1016" layer="21"/>
+<wire x1="-0.635" y1="-0.3048" x2="-0.635" y2="-0.5588" width="0.1016" layer="21"/>
+<text x="-0.75" y="0.75" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.75" y="-1.25" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="2.LRG">
+<smd name="1" x="-0.381" y="0" dx="0.6096" dy="1.27" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="0.381" y="0" dx="0.6096" dy="1.27" layer="1" rot="R180" stop="no" cream="no"/>
+<wire x1="0.8382" y1="0.7874" x2="-0.8382" y2="0.7874" width="0.1016" layer="21"/>
+<wire x1="0.8382" y1="-0.7874" x2="-0.8382" y2="-0.7874" width="0.1016" layer="21"/>
+<wire x1="-0.8382" y1="0.7874" x2="-0.8382" y2="0.4826" width="0.1016" layer="21"/>
+<wire x1="0.8382" y1="0.7874" x2="0.8382" y2="0.4826" width="0.1016" layer="21"/>
+<wire x1="0.8382" y1="-0.7874" x2="0.8382" y2="-0.4826" width="0.1016" layer="21"/>
+<wire x1="-0.8382" y1="-0.7874" x2="-0.8382" y2="-0.4826" width="0.1016" layer="21"/>
+<rectangle x1="-0.6858" y1="-0.635" x2="-0.0762" y2="0.635" layer="29"/>
+<rectangle x1="0.0762" y1="-0.635" x2="0.6858" y2="0.635" layer="29"/>
+<text x="-1" y="1" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1" y="-1.5" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="2.LRG.PASTE">
+<smd name="1" x="-0.381" y="0" dx="0.6096" dy="1.27" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="0.381" y="0" dx="0.6096" dy="1.27" layer="1" rot="R180" stop="no" cream="no"/>
+<wire x1="0.8382" y1="0.7874" x2="-0.8382" y2="0.7874" width="0.1016" layer="21"/>
+<wire x1="0.8382" y1="-0.7874" x2="-0.8382" y2="-0.7874" width="0.1016" layer="21"/>
+<wire x1="-0.8382" y1="0.7874" x2="-0.8382" y2="0.4826" width="0.1016" layer="21"/>
+<wire x1="0.8382" y1="0.7874" x2="0.8382" y2="0.4826" width="0.1016" layer="21"/>
+<wire x1="0.8382" y1="-0.7874" x2="0.8382" y2="-0.4826" width="0.1016" layer="21"/>
+<wire x1="-0.8382" y1="-0.7874" x2="-0.8382" y2="-0.4826" width="0.1016" layer="21"/>
+<rectangle x1="-0.6858" y1="-0.635" x2="-0.0762" y2="0.635" layer="29"/>
+<rectangle x1="0.0762" y1="-0.635" x2="0.6858" y2="0.635" layer="29"/>
+<text x="-1" y="1" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1" y="-1.5" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-0.75" x2="0.8" y2="0.75" layer="31"/>
+</package>
+<package name="2.SML.PASTE">
+<smd name="1" x="-0.2032" y="0" dx="0.254" dy="0.508" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="0.2032" y="0" dx="0.254" dy="0.508" layer="1" rot="R180" stop="no" cream="no"/>
+<wire x1="-0.4826" y1="0.2032" x2="-0.4826" y2="0.4064" width="0.1016" layer="21"/>
+<wire x1="-0.4826" y1="0.4064" x2="0.4826" y2="0.4064" width="0.1016" layer="21"/>
+<wire x1="0.4826" y1="0.4064" x2="0.4826" y2="0.2032" width="0.1016" layer="21"/>
+<wire x1="0.4826" y1="-0.2032" x2="0.4826" y2="-0.4064" width="0.1016" layer="21"/>
+<wire x1="0.4826" y1="-0.4064" x2="-0.4826" y2="-0.4064" width="0.1016" layer="21"/>
+<wire x1="-0.4826" y1="-0.4064" x2="-0.4826" y2="-0.2032" width="0.1016" layer="21"/>
+<rectangle x1="-0.3302" y1="-0.254" x2="-0.0762" y2="0.254" layer="29"/>
+<rectangle x1="0.0762" y1="-0.254" x2="0.3302" y2="0.254" layer="29"/>
+<text x="-0.5" y="0.5" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.5" y="-1" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.4" y1="-0.35" x2="0.4" y2="0.35" layer="31"/>
+</package>
+<package name="2.MED.PASTE">
+<smd name="1" x="-0.2794" y="0" dx="0.4064" dy="0.8128" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="0.2794" y="0" dx="0.4064" dy="0.8128" layer="1" rot="R180" stop="no" cream="no"/>
+<wire x1="0.635" y1="0.5588" x2="-0.635" y2="0.5588" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="-0.5588" x2="-0.635" y2="-0.5588" width="0.1016" layer="21"/>
+<rectangle x1="-0.4826" y1="-0.4064" x2="-0.0762" y2="0.4064" layer="29"/>
+<rectangle x1="0.0762" y1="-0.4064" x2="0.4826" y2="0.4064" layer="29"/>
+<wire x1="-0.635" y1="0.5588" x2="-0.635" y2="0.3048" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="0.5588" x2="0.635" y2="0.3048" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="-0.3048" x2="0.635" y2="-0.5588" width="0.1016" layer="21"/>
+<wire x1="-0.635" y1="-0.3048" x2="-0.635" y2="-0.5588" width="0.1016" layer="21"/>
+<text x="-0.75" y="0.75" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.75" y="-1.25" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.6" y1="-0.5" x2="0.6" y2="0.5" layer="31"/>
+</package>
+<package name="2.XL">
+<smd name="1" x="-0.735" y="0" dx="1.1684" dy="2.54" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="0.735" y="0" dx="1.1684" dy="2.54" layer="1" rot="R180" stop="no" cream="no"/>
+<wire x1="1.4732" y1="1.4224" x2="-1.4732" y2="1.4224" width="0.1016" layer="21"/>
+<wire x1="1.4732" y1="-1.4224" x2="-1.4732" y2="-1.4224" width="0.1016" layer="21"/>
+<wire x1="-1.4732" y1="1.4224" x2="-1.4732" y2="0.4826" width="0.1016" layer="21"/>
+<wire x1="1.4732" y1="1.4224" x2="1.4732" y2="0.4826" width="0.1016" layer="21"/>
+<wire x1="1.4732" y1="-1.4224" x2="1.4732" y2="-0.4826" width="0.1016" layer="21"/>
+<wire x1="-1.4732" y1="-1.4224" x2="-1.4732" y2="-0.4826" width="0.1016" layer="21"/>
+<text x="-1" y="1.635" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1" y="-2.008" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.35" y1="-1.3" x2="-0.15" y2="1.3" layer="29"/>
+<rectangle x1="0.15" y1="-1.3" x2="1.35" y2="1.3" layer="29"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SOLDERJUMPER.2">
+<pin name="1" x="-2.54" y="0" visible="off" length="point"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<text x="-1.27" y="1.27" size="1.016" layer="95">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.016" layer="96">&gt;VALUE</text>
+<polygon width="0.12" layer="94">
+<vertex x="-0.254" y="0.635"/>
+<vertex x="-0.254" y="-0.635" curve="-90"/>
+<vertex x="-0.889" y="0" curve="-90"/>
+</polygon>
+<polygon width="0.12" layer="94">
+<vertex x="0.254" y="-0.635"/>
+<vertex x="0.254" y="0.635" curve="-90"/>
+<vertex x="0.889" y="0" curve="-90"/>
+</polygon>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SOLDERJUMPER.2" prefix="J" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="SOLDERJUMPER.2" x="0" y="0"/>
+</gates>
+<devices>
+<device name=".SML" package="2.SML">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".MED" package="2.MED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".LRG" package="2.LRG">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".LRG.PASTE" package="2.LRG.PASTE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".SML.PASTE" package="2.SML.PASTE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".MED.PASTE" package="2.MED.PASTE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".XL" package="2.XL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10400,6 +10597,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IC2" library="MCP1700" deviceset="MCP1700" device="TT"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
+<part name="J5" library="solderjumper" deviceset="SOLDERJUMPER.2" device=".MED"/>
 </parts>
 <sheets>
 <sheet>
@@ -10421,6 +10619,7 @@ leakage current too high </text>
 <wire x1="203.2" y1="120.65" x2="203.2" y2="40.64" width="0.1524" layer="95" style="longdash"/>
 <text x="251.46" y="114.3" size="3.81" layer="95">Other Periphery</text>
 <text x="134.62" y="116.84" size="3.81" layer="95">LEDs</text>
+<text x="250.19" y="107.95" size="1.778" layer="91">Bypass LDO</text>
 </plain>
 <instances>
 <instance part="JP3" gate="G$1" x="226.06" y="195.58" smashed="yes" rot="R180"/>
@@ -10556,6 +10755,10 @@ leakage current too high </text>
 <instance part="P+1" gate="1" x="243.84" y="193.04" smashed="yes" rot="R270">
 <attribute name="VALUE" x="238.76" y="195.58" size="1.778" layer="96"/>
 </instance>
+<instance part="J5" gate="G$1" x="256.54" y="105.41" smashed="yes">
+<attribute name="NAME" x="255.27" y="106.68" size="1.016" layer="95"/>
+<attribute name="VALUE" x="255.27" y="102.87" size="1.016" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10674,6 +10877,9 @@ leakage current too high </text>
 <wire x1="266.7" y1="96.52" x2="264.16" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="96.52" x2="266.7" y2="96.52" width="0.1524" layer="91"/>
 <junction x="266.7" y="96.52"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="105.41" x2="266.7" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="105.41" x2="266.7" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADCENA" class="0">
@@ -10977,6 +11183,9 @@ leakage current too high </text>
 <pinref part="IC2" gate="G$1" pin="IN"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <junction x="246.38" y="96.52"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="254" y1="105.41" x2="246.38" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="105.41" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="VBUS"/>
