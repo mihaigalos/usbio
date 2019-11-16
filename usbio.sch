@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -10598,6 +10598,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="J5" library="solderjumper" deviceset="SOLDERJUMPER.2" device=".MED"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="1.5kΩ"/>
+<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10759,6 +10761,13 @@ leakage current too high </text>
 <attribute name="NAME" x="255.27" y="106.68" size="1.016" layer="95"/>
 <attribute name="VALUE" x="255.27" y="102.87" size="1.016" layer="96"/>
 </instance>
+<instance part="R4" gate="G$1" x="327.66" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="326.1614" y="105.41" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="330.962" y="105.41" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V1" gate="G$1" x="327.66" y="116.84" smashed="yes">
+<attribute name="VALUE" x="325.12" y="111.76" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10881,6 +10890,10 @@ leakage current too high </text>
 <wire x1="259.08" y1="105.41" x2="266.7" y2="105.41" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="105.41" x2="266.7" y2="96.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="ADCENA" class="0">
 <segment>
@@ -10972,6 +10985,12 @@ leakage current too high </text>
 <pinref part="JP1" gate="A" pin="4"/>
 <wire x1="250.19" y1="58.42" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
 <label x="241.3" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="327.66" y1="104.14" x2="327.66" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="101.6" x2="332.74" y2="101.6" width="0.1524" layer="91"/>
+<label x="332.74" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OUTAB" class="0">
