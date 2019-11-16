@@ -3842,12 +3842,12 @@ design rules under a new name.</description>
 <signal name="TXD">
 <contactref element="R1" pad="2"/>
 <contactref element="U1" pad="31"/>
-<wire x1="1.407" y1="26.152" x2="1.35" y2="26.095" width="0.1524" layer="1"/>
-<wire x1="1.35" y1="26.095" x2="1.35" y2="25.434" width="0.1524" layer="1"/>
-<via x="1.35" y="25.434" extent="1-16" drill="0.35"/>
+<wire x1="1.407" y1="26.152" x2="1.4262" y2="26.1328" width="0.1524" layer="1"/>
+<wire x1="1.4262" y1="26.1328" x2="1.4262" y2="25.3578" width="0.1524" layer="1"/>
+<via x="1.4262" y="25.3578" extent="1-16" drill="0.35"/>
 <wire x1="0.5454" y1="20.599675" x2="1.125675" y2="20.0194" width="0.1524" layer="16"/>
-<wire x1="1.35" y1="25.434" x2="1.35" y2="24.764925" width="0.1524" layer="16"/>
-<wire x1="1.35" y1="24.764925" x2="0.5454" y2="23.960325" width="0.1524" layer="16"/>
+<wire x1="1.4262" y1="25.3578" x2="1.4262" y2="24.841125" width="0.1524" layer="16"/>
+<wire x1="1.4262" y1="24.841125" x2="0.5454" y2="23.960325" width="0.1524" layer="16"/>
 <wire x1="0.5454" y1="23.960325" x2="0.5454" y2="20.599675" width="0.1524" layer="16"/>
 <wire x1="8.694" y1="16.443" x2="8.559" y2="16.578" width="0.1524" layer="16"/>
 <via x="8.478" y="16.578" extent="1-16" drill="0.35"/>
@@ -3874,11 +3874,11 @@ design rules under a new name.</description>
 <wire x1="7.209" y1="16.47" x2="7.2208" y2="16.4818" width="0.1524" layer="1"/>
 <wire x1="7.2208" y1="16.4818" x2="7.2758" y2="16.4818" width="0.1524" layer="1"/>
 <via x="7.2758" y="16.4818" extent="1-16" drill="0.35"/>
-<wire x1="7.2758" y1="16.4818" x2="2.646" y2="21.1116" width="0.1524" layer="16"/>
-<wire x1="2.646" y1="21.1116" x2="2.646" y2="24.975" width="0.1524" layer="16"/>
-<via x="2.646" y="24.975" extent="1-16" drill="0.35"/>
-<wire x1="2.646" y1="24.975" x2="2.207" y2="25.414" width="0.1524" layer="1"/>
-<wire x1="2.207" y1="25.414" x2="2.207" y2="26.152" width="0.1524" layer="1"/>
+<wire x1="7.2758" y1="16.4818" x2="3.027" y2="20.7306" width="0.1524" layer="16"/>
+<wire x1="3.027" y1="20.7306" x2="3.027" y2="25.0258" width="0.1524" layer="16"/>
+<via x="3.027" y="25.0258" extent="1-16" drill="0.35"/>
+<wire x1="3.027" y1="25.0258" x2="2.207" y2="25.8458" width="0.1524" layer="1"/>
+<wire x1="2.207" y1="25.8458" x2="2.207" y2="26.152" width="0.1524" layer="1"/>
 </signal>
 <signal name="TXD_OUT">
 <contactref element="LED1" pad="3"/>
@@ -4177,6 +4177,8 @@ design rules under a new name.</description>
 <approved hash="19,1,93c696006ae66f20"/>
 <approved hash="19,1,83b6abd4ebcf4621"/>
 <approved hash="19,1,7beb7d1c7e6819cf"/>
+<approved hash="6,1,a1c56a152d961ede"/>
+<approved hash="6,1,037cc179da14e70d"/>
 </errors>
 </board>
 </drawing>
