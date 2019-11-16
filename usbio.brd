@@ -12,7 +12,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -32,11 +32,11 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -1647,7 +1647,6 @@
 <rectangle x1="5.1689" y1="7.5311" x2="5.6261" y2="7.5565" layer="22" rot="R180"/>
 <rectangle x1="3.5433" y1="7.5311" x2="4.7117" y2="7.5565" layer="22" rot="R180"/>
 <text x="9.3726" y="0.635" size="0.8128" layer="22" font="vector" rot="MR0">usbio v0.1.0</text>
-<circle x="6.0198" y="32.639" radius="0.314178125" width="1.27" layer="29"/>
 <text x="11.8872" y="35.9156" size="1.778" layer="21" rot="SR180">A</text>
 <text x="2.032" y="35.9918" size="1.778" layer="21" rot="SR180">B</text>
 <wire x1="2.7686" y1="31.9024" x2="4.2926" y2="29.7688" width="0.8128" layer="29" curve="-313.260708"/>
@@ -1713,62 +1712,10 @@
 <vertex x="7.0866" y="30.3784"/>
 <vertex x="7.2644" y="30.5562"/>
 </polygon>
-<wire x1="2.7686" y1="31.242" x2="3.937" y2="29.7688" width="0.508" layer="30" curve="-328.702104"/>
-<wire x1="3.048" y1="31.496" x2="4.2164" y2="30.0482" width="0.508" layer="30" curve="-325.533622"/>
-<wire x1="3.302" y1="31.8008" x2="4.4704" y2="30.3022" width="0.508" layer="30" curve="-319.801267"/>
-<wire x1="3.6322" y1="32.0802" x2="5.2832" y2="30.4038" width="0.508" layer="30" curve="-300.884059"/>
-<wire x1="3.8862" y1="32.3342" x2="6.8326" y2="30.7594" width="0.508" layer="30" curve="-253.871494"/>
-<polygon width="0.508" layer="30">
-<vertex x="4.064" y="32.5628"/>
-<vertex x="4.9784" y="33.4772"/>
-<vertex x="4.9784" y="34.3662"/>
-<vertex x="4.5466" y="33.9344"/>
-<vertex x="4.5466" y="33.4264"/>
-<vertex x="4.064" y="32.9438"/>
-</polygon>
-<polygon width="0.508" layer="30">
-<vertex x="5.207" y="34.3916"/>
-<vertex x="7.0866" y="34.3916"/>
-<vertex x="6.604" y="34.8742"/>
-<vertex x="6.1468" y="34.8742"/>
-<vertex x="5.6896" y="34.8742"/>
-</polygon>
-<polygon width="0.508" layer="30">
-<vertex x="7.1374" y="34.1376"/>
-<vertex x="7.1374" y="31.1912"/>
-<vertex x="7.2898" y="31.0388"/>
-<vertex x="7.5692" y="31.3182"/>
-<vertex x="7.5692" y="31.9024"/>
-<vertex x="7.5692" y="33.7058"/>
-</polygon>
-<polygon width="0.508" layer="30">
-<vertex x="6.8834" y="30.4292"/>
-<vertex x="4.4958" y="30.4292"/>
-<vertex x="3.937" y="29.8704"/>
-<vertex x="6.8326" y="29.8704"/>
-<vertex x="6.858" y="29.8958"/>
-<vertex x="6.8834" y="29.9212"/>
-</polygon>
-<polygon width="0.508" layer="30">
-<vertex x="4.9276" y="33.401"/>
-<vertex x="2.7432" y="31.2166"/>
-<vertex x="2.7432" y="32.4866"/>
-<vertex x="3.2004" y="32.9438"/>
-<vertex x="3.6576" y="33.401"/>
-</polygon>
-<polygon width="0.508" layer="30">
-<vertex x="7.1882" y="30.8864"/>
-<vertex x="7.1628" y="30.861"/>
-<vertex x="6.8072" y="30.861"/>
-<vertex x="6.7818" y="30.8356"/>
-<vertex x="6.7818" y="30.6832"/>
-<vertex x="6.731" y="30.6324"/>
-<vertex x="6.6802" y="30.6324"/>
-<vertex x="6.604" y="30.5562"/>
-<vertex x="6.6294" y="30.5308"/>
-<vertex x="7.3152" y="30.5308"/>
-<vertex x="7.3152" y="30.7594"/>
-</polygon>
+<circle x="5.9436" y="32.5628" radius="3.48128125" width="0.508" layer="30"/>
+<circle x="5.9182" y="32.5374" radius="2.69251875" width="1.27" layer="30"/>
+<circle x="5.9436" y="32.5628" radius="1.601003125" width="1.27" layer="30"/>
+<circle x="5.9436" y="32.5374" radius="0.534003125" width="1.27" layer="30"/>
 </plain>
 <libraries>
 <library name="rcl">
